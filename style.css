@@ -1,0 +1,59 @@
+/*****  TEST  
+    
+* { outline: 1px solid orange; } 
+    
+img[alt=""] { outline: 6px dashed orange; }
+img:not([alt]) { outline: 6px dashed red; }  
+
+*****/ 
+
+    
+/*****  ESTRUCTURA *****/  
+    
+* { box-sizing: border-box; }
+    
+body{   display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+        }
+
+
+main{   display: grid;
+        grid-template-columns: repeat(17, 3vmin);
+        grid-template-rows: repeat(16, 3vmin); 
+        }
+
+.area2{ grid-column: span 2;}
+.area3{ grid-column: span 3;}
+.area4{ grid-column: span 4;}
+.area5{ grid-column: span 5;}
+.area6{ grid-column: span 6;}
+.area7{ grid-column: span 7;}
+.area8{ grid-column: span 8;}
+.area9{ grid-column: span 9;}
+    
+    
+    
+/*****  ESTETICA *****/  
+
+.red { background: #e93422; }
+
+.blue { background: #4053ac; }
+
+.yellow { background: #fae861; }
+
+.black { background: black; }
+
+.brown { background: #76481f; }
+
+.skin { background: #f1b06b; }
+
+.white{ background-color:white;}
+
+.cigarro{ background-color: whitesmoke;}
+
+.fuego{ background-color: rgb(255, 145, 55);}
+
+.gris{ background-color: lightgrey;}    
